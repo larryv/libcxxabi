@@ -24,6 +24,7 @@
 #endif
 
 #include "libunwind.h"
+#include "libunwind_ext.h"
 
 #include "AddressSpace.hpp"
 #include "Registers.hpp"
