@@ -291,7 +291,7 @@ inline LocalAddressSpace::pint_t LocalAddressSpace::getEncodedP(pint_t &addr,
     const void*                 compact_unwind_section;
     uintptr_t                   compact_unwind_section_length;
   };
-  #if (defined(__MAC_OS_X_VERSION_MIN_REQUIRED) \
+  #if 0 && (defined(__MAC_OS_X_VERSION_MIN_REQUIRED) \
                                  && (__MAC_OS_X_VERSION_MIN_REQUIRED >= 1070)) \
       || defined(__IPHONE_OS_VERSION_MIN_REQUIRED)
     // In 10.7.0 or later, libSystem.dylib implements this function.
